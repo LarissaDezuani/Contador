@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <!--importar o arquivo javascript para o html-->
+    
+    <title>Contador</title>
+</head>
+<body>
+    
+    <div id="counter">
+        <h1>Contador</h1>
+        <p>Clique nos botões para alterar o valor.</p>
+        <button name="adicionar" onclick="increment()">+</button>
+        <span id="currentNumber">0</span>
+        <button name="subtrair" onclick="decrement()">-</button>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+<!--nesta tag ele diz que se o usuario estiver em um celular, desktop, tablet
+a tela sera ajustada para o aparelho utilizado 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->

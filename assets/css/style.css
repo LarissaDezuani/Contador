@@ -1,0 +1,18 @@
+body{
+    color: rgb(9, 0, 14);
+    background-color: rgb(209, 181, 236);
+}
+button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(9, 0, 14);
+    color: rgb(209, 181, 236);
+}
+#counter{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
